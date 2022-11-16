@@ -15,7 +15,7 @@ const RegisterForm = () => {
     const [Success, setSuccess] = useState(null);
     const [Error, setError] = useState(null);
     const navigate = useNavigate();
-
+    
     const validationSchema = Yup.object().shape({
         first_name: Yup.string()
           .min(3, "Too short")

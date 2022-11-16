@@ -5,7 +5,7 @@ const Register = () => {
     return (
         <div className='mx-auto'>
             <RegisterForm />
-            
+
         </div>
     );
 };
