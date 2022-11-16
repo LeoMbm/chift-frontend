@@ -1,5 +1,5 @@
 const Settings = {
-    URL_BACKEND: "http://127.0.0.1:8000"
+    URL_BACKEND: "https://chift-api-production.up.railway.app"
 }
 
 export default Settings;
