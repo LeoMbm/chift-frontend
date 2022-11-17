@@ -10,7 +10,7 @@ const Profile = ({user, Logged}) => {
         <div className="mockup-code w-fit">
 
           <pre data-prefix="$" >
-            <code>Hey ! {user.first_name}. This is your account details</code>
+            <code>Hey {user.first_name}! This is your account details</code>
           </pre>
           <pre data-prefix="$">
             <code>First Name: {user.first_name}</code>
@@ -20,9 +20,6 @@ const Profile = ({user, Logged}) => {
           </pre>
           <pre data-prefix="$">
             <code>Email: {user.email}</code>
-          </pre>
-          <pre data-prefix="$">
-            <code>First Name: {user.first_name}</code>
           </pre>
         </div>
       </div>

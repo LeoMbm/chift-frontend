@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Pagination = ({ itemPerPage, setCurrentPage, totalItems }) => {
   let pageNumber = [];
-
+  // Error for paginate 10 and 7 contact is here mmmmmmh... maybe i should use math ceil or something like that
   for (let i = 1; i <= totalItems / itemPerPage; i++) {
     pageNumber.push(i);
   }
